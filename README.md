@@ -20,7 +20,7 @@ git clone https://github.com/wangyin-cv/transformer-for-image-colorization
 cd transformer-for-image-colorization
 pip install requriments.txt
 ```
-- Download model weights from <a href="https://drive.google.com/file/d/11FM-2v4iVH8Dvowo-7bQG56Z_ey8kjOa/view?usp=sharing">[Google Drive]</a>
+- Download model weights from <a href="https://drive.google.com/file/d/11FM-2v4iVH8Dvowo-7bQG56Z_ey8kjOa/view?usp=sharing">[Google Drive]</a> to obtain "checkpoints_acmmm2021.zip"
 ```bash
 mkdir -p checkpoints/imagenet/
 cd checkpoints/imagenet/
