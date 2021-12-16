@@ -9,7 +9,7 @@ This is an implemention for [Yes, "Attention Is All You Need", for Exemplar base
 ## Prerequisites
 - Ubuntu 16.04
 - Python 3.6.10
-- CPU or NVIDIA GPU + CUDA CuDNN
+- CPU or NVIDIA GPU + CUDA 10.2 CuDNN
 
 ## Getting Started
 
