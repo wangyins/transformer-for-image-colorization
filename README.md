@@ -3,7 +3,7 @@ This is an implement for [Yes, "Attention Is All You Need", for Exemplar based C
 ## Table of Contents
 
 - [Prerequisites](#Prerequisites)
-- [Getting Started](#Getting Started)
+- [Getting Started](#(Getting Started))
 - [Citation](#Citation)
 
 ## Prerequisites
@@ -33,7 +33,7 @@ sh test.sh
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@inproceedings{CycleGAN2017,
+@inproceedings{yin_mm2021,
   title={Yes, "Attention Is All You Need", for Exemplar based Colorization},
   author={yin, Wang and Lu, Peng and Zhao, ZhaoRan and Peng, XuJun},
   booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
