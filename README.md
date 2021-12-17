@@ -35,7 +35,7 @@ If you use this code for your research, please cite our papers.
 ```
 @inproceedings{yin_mm2021,
   title={Yes, "Attention Is All You Need", for Exemplar based Colorization},
-  author={yin, Wang and Lu, Peng and Zhao, ZhaoRan and Peng, XuJun},
+  author={Yin, Wang and Lu, Peng and Zhao, ZhaoRan and Peng, XuJun},
   booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
   year={2021}
 }
