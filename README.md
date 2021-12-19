@@ -33,7 +33,7 @@ unzip checkpoints_acmmm2021.zip
 sh test.sh
 ```
 ## Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
 ```
 @inproceedings{yin_mm2021,
   title={Yes, "Attention Is All You Need", for Exemplar based Colorization},
