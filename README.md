@@ -18,7 +18,7 @@ This is an implementation for [Yes, "Attention Is All You Need", for Exemplar ba
 ### Installation
 - Clone this repo:
 ```bash
-git clone https://github.com/wangyin-cv/transformer-for-image-colorization
+git clone https://github.com/wangyins/transformer-for-image-colorization
 cd transformer-for-image-colorization
 pip install requriments.txt
 ```
