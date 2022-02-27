@@ -9,25 +9,6 @@ from collections import  Counter
 from tqdm import tqdm
 
 
-def make_dataset(opt, dir, max_dataset_size=float("inf")):
-    opt.paired_file = 'semantic_related_5000.txt'
-    images = []
-    assert os.path.isdir(dir), '%s is not a valid directory' % dir
-    if opt.paired_file == 'semantic_related_5000.txt':
-        dir = '/lfs1/data/colorization_dataset/Test_imagenet/pair_7431'
-    else:
-        dir = '/lfs1/data/colorization_dataset/Test_imagenet/unpair_5000_filter'
-    txt_path = '/lfs1/data/colorization_dataset/Test_imagenet/'
-    with open(os.path.join(txt_path, opt.paired_file)) as f:
-        for line in tqdm(f):
-            line = line.strip().split('\t')
-            first = line[0]
-            second = line[1]
-            line = [os.path.join(dir, i) for i in (first, second)]
-            images.append(tuple(line))
-    return images[:min(max_dataset_size, len(images))]
-
-
 class ColorizationDataset(BaseDataset):
     """This dataset class can load a set of natural images in RGB, and convert RGB format into (L, ab) pairs in Lab color space."""
     @staticmethod
@@ -55,8 +36,7 @@ class ColorizationDataset(BaseDataset):
         """
         BaseDataset.__init__(self, opt)
         self.dir = os.path.join(opt.dataroot, opt.phase)
-        # self.AB_paths = [[self.opt.targetImage_path, self.opt.referenceImage_path]]
-        self.AB_paths = sorted(make_dataset(self.opt, self.dir, opt.max_dataset_size))
+        self.AB_paths = [[self.opt.targetImage_path, self.opt.referenceImage_path]]
         self.ab_constant = np.load('./doc/ab_constant_filter.npy')
         self.transform_A = get_transform(self.opt, convert=False)
         self.transform_R = get_transform(self.opt, convert=False, must_crop=True)
