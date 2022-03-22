@@ -32,7 +32,7 @@ numpy==1.18.5
 olefile==0.46
 opencv-contrib-python==3.4.2.16
 opencv-python==3.4.2.16
-Pillow @ file:///tmp/build/80754af9/pillow_1594307298074/work
+Pillow==7.2.0
 product-key-memory==0.1.10
 protobuf==3.13.0
 pyheatmap==0.1.12
