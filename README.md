@@ -1,6 +1,5 @@
-<img src='imgs/visual.jpg' align="center" width=800>
-
 # Transformer for Image Colorization
+<img src='imgs/visual.jpg' align="center" width=800>
 This is an official implementation for [Yes, "Attention Is All You Need", for Exemplar based Colorization](https://dl.acm.org/doi/10.1145/3474085.3475385), and the current code works well with PyTorch 1.5.1.
 ## Table of Contents
 
