@@ -20,6 +20,7 @@ Xujun Peng<sup>2</sup> <br>
 ## Prerequisites
 - Ubuntu 16.04
 - Python 3.6.10
+- Pytorch 1.5.1
 - CPU or NVIDIA GPU + CUDA 10.2 CuDNN
 
 ## Getting Started
