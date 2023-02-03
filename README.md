@@ -2,8 +2,15 @@
 
 <img src='imgs/visual.jpg' align="center" width=800>
 
-### [Paper](https://dl.acm.org/doi/10.1145/3474085.3475385)
-This is an official implementation for [Yes, "Attention Is All You Need", for Exemplar based Colorization](), and the current code works well with PyTorch 1.5.1.
+### [Paper](https://dl.acm.org/doi/10.1145/3474085.3475385) | [Pretrained Model](https://drive.google.com/file/d/11FM-2v4iVH8Dvowo-7bQG56Z_ey8kjOa/view?usp=sharing)
+
+**Yes, "Attention Is All You Need", for Exemplar based Colorization, ACMMM2021**
+
+Wang Yin<sup>1</sup>,
+Peng Lu<sup>1</sup>,
+Zhaoran Zhao<sup>1</sup>,
+Xujun Peng<sup>2</sup> <br>
+<sup>1</sup>Beijing University of Posts and Telecommunications,<sup>2</sup>USC
 ## Table of Contents
 
 - [Prerequisites](#Prerequisites)
@@ -24,7 +31,7 @@ git clone https://github.com/wangyins/transformer-for-image-colorization
 cd transformer-for-image-colorization
 pip install requriments.txt
 ```
-- Download model weights from <a href="https://drive.google.com/file/d/11FM-2v4iVH8Dvowo-7bQG56Z_ey8kjOa/view?usp=sharing">[Google Drive]</a> to get "checkpoints_acmmm2021.zip"
+- Download model weights from <a href="https://drive.google.com/file/d/11FM-2v4iVH8Dvowo-7bQG56Z_ey8kjOa/view?usp=sharing">this link</a> to get "checkpoints_acmmm2021.zip"
 ```bash
 mkdir -p checkpoints/imagenet/
 cd checkpoints/imagenet/
